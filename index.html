@@ -3,22 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container header-container">
       <img src="./images/logo.svg" alt="Foodsta" />
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="nav-list">
+        <ul class="list-menu list">
+          <li class="list-menu-item"><a class="list-menu-link current" href="">Home</a></li>
+          <li class="list-menu-item"><a class="list-menu-link" href="">About</a></li>
+          <li class="list-menu-item"><a class="list-menu-link" href="">Service</a></li>
+          <li class="list-menu-item"><a class="list-menu-link" href="">Menu</a></li>
+          <li class="list-menu-item"><a class="list-menu-link" href="">Contact</a></li>
         </ul>
       </nav>
 
-      <button>Order Now</button>
+      <button class="order-button" type="button">Order Now</button>
+      </div>
+      
     </header>
 
     <main>
@@ -38,7 +46,7 @@
       <!-- Section 1 -->
       <section>
         <img src="./images/Foto-2.png" alt="aple" />
-        <h2>What’s Special About Our Offerings</h2>
+        <h2>What's Special About Our Offerings</h2>
         <p>
           With our platform, you can browse through a diverse selection of
           cuisines and local restaurants, and choose from a variety of dishes
@@ -112,6 +120,7 @@
               height="315"
             />
           </li>
+          <li>
           <img
               src="./images/borshch.png"
               alt="borshch"
